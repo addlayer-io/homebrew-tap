@@ -1,9 +1,9 @@
 cask "dbine" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.3.1"
-  sha256 arm:   "25cdda6b00f8493b88b34c8e1bfaf2604b7d486774aaa1082155bece68aed42a",
-         intel: "78450dee3bf029f45b5bb8bfe8af7474147f61c67e7ec53bbfd6fb544631ad94"
+  version "1.4.0"
+  sha256 arm:   "4b280e92ae57188647622d446d857b50a4c90a7020988e0735b103230e329b94",
+         intel: "e428c05d7f94c9e16bf69813af3f13dbffea35b89085233e0d903aba6ff9797d"
 
   url "https://github.com/addlayer-io/dbine/releases/download/v#{version}/DBine_#{version}_#{arch}.dmg",
       verified: "github.com/addlayer-io/dbine/"
